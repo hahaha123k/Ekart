@@ -1,0 +1,81 @@
+:root{
+    --main-color:#000000;
+}
+
+
+main{
+    margin-top: 5.5rem;
+}
+.products .card img {
+    height: 200px;
+    width: 89%;
+    padding: 9px;
+    position: relative;
+    left: 24px;
+    justify-content: center;
+}
+  
+
+.btn-success {
+    color: #fff;
+    background-color: #21b4f8;
+    border-color: #1ae6ff;
+}
+
+.show-btn{
+    background-color: var(--main-color);
+    color:white;
+}
+
+.show-btn:hover{
+    color: white;
+}
+
+.navbar-brand {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.1em;
+}
+#heading {
+    width: 101%;
+    background-color: #e9ecef;
+    padding: 16px;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.6);
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+footer{
+    background-color: var(--main-color);
+}
+
+.fas.fa-heart{
+    color:red;
+}
+
+.like-button{
+    transition: 100ms;
+}
+.like-button:active{
+    transform: scale(0.8);
+}
+
+@media screen and (max-width:560px){
+    .reviews-section{
+        width: 90vw;
+    }
+    #heading{
+        width: 75vw;
+    }
+}
+
+@media screen and (max-width:460px){
+   
+    #heading{
+        width: 90vw;
+    }
+}
